@@ -1,0 +1,8 @@
+/* Ritocchi di leggibilità (revisione Mockly, novembre 2026). */
+.btn--wa { background: #128c4a; }
+.btn--wa:hover { background: #0f7a40; }
+.site-header.is-scrolled .logo-name em, .site-header.scrolled .logo-name em { color: var(--gold-700); }
+.site-footer a { padding-block: 0.5rem; }
+.contatti a[href^="tel:"], .contatti a[href^="mailto:"] { padding-block: 0.5rem; }
+input, select, textarea { font-size: 16px !important; }
+[hidden] { display: none !important; }

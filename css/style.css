@@ -80,7 +80,7 @@ h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 600; line-height: 
 
 .eyebrow {
   font-family: var(--font-sans);
-  font-size: .8rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: .22em;
   text-transform: uppercase;
@@ -415,7 +415,7 @@ h2 em { font-style: italic; color: var(--gold-600); }
 .marquee__track i {
   color: var(--gold-500);
   font-style: normal;
-  font-size: .8rem;
+  font-size: 0.8125rem;
 }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
@@ -535,7 +535,7 @@ h2 em { font-style: italic; color: var(--gold-600); }
 
 .space-card__caption h3 { font-size: 1.22rem; margin-bottom: .25rem; }
 .space-card__caption p { font-size: .88rem; color: rgba(255, 253, 248, .85); }
-.space-card__caption small { color: var(--sand-300); font-size: .78rem; }
+.space-card__caption small { color: var(--sand-300); font-size: 0.8125rem; }
 
 .space-card__view {
   position: absolute;
@@ -626,7 +626,7 @@ h2 em { font-style: italic; color: var(--gold-600); }
   position: absolute; left: .9rem; bottom: .9rem;
   padding: .35rem .8rem;
   border-radius: 999px;
-  font-size: .78rem; font-weight: 600;
+  font-size: 0.8125rem; font-weight: 600;
   color: var(--white);
   background: rgba(24, 28, 15, .72);
   -webkit-backdrop-filter: blur(4px);
@@ -744,7 +744,7 @@ h2 em { font-style: italic; color: var(--gold-600); }
   border-radius: 999px;
   background: var(--sand-300);
   color: var(--gold-700);
-  font-size: .72rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   font-style: normal;
   letter-spacing: .04em;
@@ -1286,14 +1286,14 @@ body.page-legal .nav-toggle span { background: var(--ink); }
   .hero__title { font-size: clamp(1.9rem, 8vw, 2.6rem); line-height: 1.12; margin-bottom: .9rem; }
   .hero__sub { font-size: 1rem; line-height: 1.55; margin-bottom: 1.7rem; }
   .hero__actions { gap: .65rem; }
-  .hero__badge { font-size: .8rem; padding: .5rem .95rem; gap: .45rem; margin-top: 2rem; }
+  .hero__badge { font-size: 0.8125rem; padding: .5rem .95rem; gap: .45rem; margin-top: 2rem; }
 }
 
 @media (max-width: 400px) {
   .gallery-grid { columns: 1; }
   .logo-name { font-size: 1.12rem; }
   .hero__title { font-size: 2rem; }
-  .hero__eyebrow { font-size: .7rem; letter-spacing: .16em; }
+  .hero__eyebrow { font-size: 0.8125rem; letter-spacing: .16em; }
   .hero__slides-nav span { width: 20px; }
   .testimonial { padding: 1.5rem 1.4rem; }
 }

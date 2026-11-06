@@ -336,6 +336,7 @@ var EMAIL = 'info@sasidacountry.it';
   var backTop = document.getElementById('back-top');
 
   function onBackTop() {
+    if (!backTop) return;
     backTop.classList.toggle('is-visible', window.scrollY > window.innerHeight * 0.9);
   }
   window.addEventListener('scroll', onBackTop, { passive: true });
