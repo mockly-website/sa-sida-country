@@ -6,3 +6,9 @@
 .contatti a[href^="tel:"], .contatti a[href^="mailto:"] { padding-block: 0.5rem; }
 input, select, textarea { font-size: 16px !important; }
 [hidden] { display: none !important; }
+
+/* Revisione 19/11/2026: a 320 px le schede numeriche sforavano di poco */
+@media (max-width: 360px) {
+  .num-card { padding-inline: .6rem; min-width: 0; }
+  .num-card__value { font-size: 1.9rem; }
+}
